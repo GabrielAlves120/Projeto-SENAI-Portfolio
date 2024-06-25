@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin-top: 110px;
+}
+
+header{
+    overflow: hidden;
+    background-color: rgb(25, 25, 25);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+header h1{
+    text-align: center;
+    font: italic;
+    color: rgb(255, 255, 255);
+}
+
+#sobreMim{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#sobreMim img{
+    float: right;
+    border-radius: 8px;
+    max-width: 240px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#txtIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
+#txtIcons a img{
+    max-width: 30px;
+    height: auto;
+}
+
+h2{
+    font: italic;
+}
+
+#topNav a{
+    float: left;
+    display: block;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#meuContato{
+    float: left;
+}
+
+#meuContato a img{
+    width: 5%;
+    height: 5%;
+}

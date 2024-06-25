@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer type="text/javascript" src="main.js"></script>
+    <title>Portfólio - Gabriel</title>
+</head>
+<body>
+    <header>
+        <h1>Gabriel Alves</h1>
+        <nav id="topNav">
+            <a href="#sobreMim">Sobre Mim</a>
+        </nav>
+    </header>
+
+    <section id="sobreMim">
+        <div>
+            <img src="imagens/eumesmo.jpg" alt="Foto minha">
+            <h2>Sobre Mim</h2>
+            <p>Boas-vindas ao meu portfólio. Meu nome é Gabriel, tenho 17 anos e estou concluindo o 3º ano do Ensino Médio. 
+            Nos momentos livres, dedico-me à prática de instrumentos musicais, apreciação musical, leitura e diálogo. 
+            Possuo formação acadêmica completa no Ensino Fundamental. Tenho um bom relacionamento com colegas de escola e trabalho, 
+            e geralmente mantenho uma convivência harmoniosa com os professores.</p>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Inglês Básico</li>
+                <li>Informática</li>
+                <li>Programação em Java (Básico)</li>
+                <li>Programação em Lua (Básico)</li>
+            </ul>
+
+            <div id="txtIcons">
+                <a href=""><img src="imagens/emailLogo.png" alt="Meu Email"></a>
+                <a href=""><img src="imagens/InstagramLogo.png" alt="Meu Instagram"></a>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="meusProjetos">
+        <h2>Projetos</h2>
+        <section id="calculadora">
+            <h1>Calculadora Simples</h1>
+            <p>Primeiro Número</p>
+            <input id="entrada1" type="number" placeholder="Digite um número">
+            <p>Segundo Número</p>
+            <input id="entrada2" type="number" placeholder="Digite um número">
+            <button onclick="somar()">+</button>
+            <button onclick="multiplicar()">x</button>
+            <button onclick="subtrair()">-</button>
+            <button onclick="dividir()">/</button>
+            <p>Resultado</p>
+            <input id="resultado" type="number" placeholder="Resultado">
+        </section>
+
+        <section id="imc">
+            <br>
+            <h1>Calculadora de IMC (Quebrado)</h1>
+            <br>
+            <p>Digite seu peso</p>
+            <input id="peso" type="number" placeholder="Peso">
+            <p>Digite sua altura</p>
+            <input id="altura" type="number" placeholder="altura">
+            <button onclick="imc()">Calcular</button>
+            <p>IMC</p>
+            <input id="resultadoimc" type="number" placeholder="IMC">
+            <p>Considerações</p>
+            <p id="consideracoes"></p>
+        </section>
+    </section>
+</body>
+</html>
